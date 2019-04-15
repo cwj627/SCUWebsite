@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Biography</title>
+	<!--cite https://www.w3schools.com/howto/howto_css_two_columns.asp	-->
+	<style type="text/css">
+		* {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+table, tr, td{
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 10px;
+		}
+	</style>
+</head>
+
+<body>
+	<a href="index.html"> Back to Home Page</a>
+	<div class="row">
+  <div class="column">
+  	<!-- cite https://en.wikipedia.org/wiki/Mary_Oliver-->
+       <table>
+		<caption><h3>Mary Jane Oliver</h3></caption>
+		
+		<tr>
+			<td>Born</td>
+			<td>September 10, 1935. Maple Hights, Ohio, U.S.</td>
+		</tr>
+		<tr>
+			<td>Died</td>
+			<td>January 17, 2019. Hobe Sound, Floride, U.S.</td>
+		</tr>
+		<tr>
+			<td>Occupation</td>
+			<td>Poet</td>
+		</tr>
+		<tr>
+			<td>Notable awards</td>
+			<td>
+				<p>National Book Award&nbsp;(1992)</p>
+				<p>Pulutzer Priza&nbsp;(1984)</p>
+			</td>
+		</tr>
+		<tr>
+			<td>2015</td>
+			<td>Felicity Penguin Press</td>
+		</tr>
+		<tr>
+			<td>2017</td>
+			<td>Devotions The Selected Poems of Mary Oliver Penguin Press</td>
+		</tr>
+	</table>
+
+<h3>Poetry Collections from 2010 to 2017</h3>
+<ul style="list-style-type:square;">
+	<li>2010 Swan: Poems and Prose Poems</li>
+	<li>2012 A Thousand Mornings Penguin</li>
+	<li>2013 Dog Songs Penguin Press</li>
+	<li>2014 Blue Horses Penguin Press</li>
+	<li>2015 Felicity Penguin Press</li>
+	<li>2017 Devotions The Selected Poems of Mary Oliver Penguin Press</li>
+</ul>
+  </div>
+
+  <div class="column">
+   <h3>Listen Mary Oliver reads from a Thousand Mornings</h3>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/zsr3ZZzH-MA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+</div>
+	
+</body>
+</html>

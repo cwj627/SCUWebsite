@@ -107,6 +107,9 @@ h1{
 	padding-left: 55px;
 	padding-right: 10px;
 }
+.sidebar ul{
+	list-style-type: none;
+}
 #bottom{
 	position: absolute;
 	top: 980px;
@@ -123,4 +126,5 @@ h1{
 	width: 100px;
 	opacity: 0.5;
 }
+
 
